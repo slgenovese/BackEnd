@@ -5,6 +5,6 @@
 FROM eclipse-temurin:17-jdk-alpine
 MAINTAINER sgenovese
 COPY target/portfolio-0.0.1-SNAPSHOT.jar portfolio-0.0.1-SNAPSHOT.jar
-expose 8080
+EXPOSE  8080
 ENTRYPOINT ["java","-jar","/portfolio-0.0.1-SNAPSHOT.jar"]
 
