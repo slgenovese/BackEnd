@@ -33,7 +33,7 @@ public class PortfolioApplication {
        allowMethods[5] = "OPTIONS";
        allowMethods[6] = "HEAD";
 
-       System.out.println("CORS configuration....!!!!");
+       System.out.println("CORS configuration....Dale!!!!");
        return new WebMvcConfigurer() {
           @Override
           public void addCorsMappings(CorsRegistry registry) {
