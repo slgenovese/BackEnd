@@ -12,7 +12,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
  *
  * @author Sergio
  */
-@EnableWebMvc
+//@EnableWebMvc
 
 @Configuration
 
