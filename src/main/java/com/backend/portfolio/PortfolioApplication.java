@@ -16,7 +16,7 @@ public class PortfolioApplication {
 // Esta parte habilita la comunicacion entre el cliente y el servidor de forma global
 //Tambien se puede habilitar a nivel de metodo con @CrossOrigin(origins = "http://localhost:4200")
 //al comienzo de cada metodo.
-    @Bean
+/*    @Bean
     public WebMvcConfigurer corsConfigurer()
     {
        String[] allowDomains = new String[3];
@@ -43,5 +43,5 @@ public class PortfolioApplication {
           }
        };
     }
-
+*/
 }
