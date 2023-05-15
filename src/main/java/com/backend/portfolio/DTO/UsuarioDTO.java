@@ -17,11 +17,11 @@ public class UsuarioDTO {
     private String password;
     private Long persona_id;
 
-    public UsuarioDTO(Long id, String usuario, String password, Long persona_id) {
-        this.id = id;
-        this.usuario = usuario;
-        this.password = password;
-        this.persona_id = persona_id;
+    public UsuarioDTO() {
+        this.id = Long.valueOf(1);
+        this.usuario = "";
+        this.password = "";
+        this.persona_id = Long.valueOf(1);
     }
 
     public Long getId() {
