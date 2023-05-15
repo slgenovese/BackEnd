@@ -4,10 +4,13 @@
  */
 package com.backend.portfolio.DTO;
 
+import lombok.Data;
+
 /**
  *
  * @author Sergio
  */
+
 public class UsuarioDTO {
     private Long id;
     private String usuario;
@@ -53,4 +56,5 @@ public class UsuarioDTO {
         this.persona_id = persona_id;
     }
   
+
 }
